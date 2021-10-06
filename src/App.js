@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from "./components/Button.js";
+import { Navbar } from "./components/Navbar.js";
+import {BsChevronCompactDown} from "react-icons/bs";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="h-screen w-screen bg-banner bg-black bg-blend-multiply bg-opacity-60 bg-center bg-cover px-10 text-white flex flex-col justify-between">
+        <div></div>
+        <div className="text-6xl leading-normal font-bold flex flex-col justify-center">
+          <div>Hello !</div>
+          <div>Je suis <span className="border-b-4 border-primary-400">Benjamin</span>,</div>
+          <div className="mb-4">Pianiste et Professeur</div>
+          <Button>Je réserve un cours</Button>
+        </div>
+        <div className="w-full flex justify-center mb-2 text-2xl"><BsChevronCompactDown /></div>
+      </div>
+    </>
+
   );
 }
 
