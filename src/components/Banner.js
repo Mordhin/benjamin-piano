@@ -9,7 +9,7 @@ export const Banner = () => {
       <div className="text-6xl leading-normal font-bold flex flex-col justify-center">
         <div>Hello !</div>
         <div>Je suis <span className="border-b-4 border-primary-400">Benjamin</span>,</div>
-        <div className="mb-4">Pianiste et Professeur</div>
+        <div className="mb-4">Pianiste et Professeur<span className="text-primary-400">.</span></div>
         <Button size="60" primary>Je réserve un cours</Button>
       </div>
       <div className="w-full flex justify-center mb-2 text-2xl"><BsChevronCompactDown /></div>
