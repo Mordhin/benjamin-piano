@@ -4,7 +4,7 @@ import {BsChevronCompactDown} from "react-icons/bs";
 
 export const Banner = () => {
   return (
-    <div className="h-screen w-screen bg-banner bg-black bg-blend-multiply bg-opacity-60 bg-center bg-cover px-10 text-white flex flex-col justify-between">
+    <div className="h-screen w-full bg-banner bg-black bg-blend-multiply bg-opacity-60 bg-center bg-cover px-10 text-white flex flex-col justify-between">
       <div></div>
       <div className="text-6xl leading-normal font-bold flex flex-col justify-center">
         <div>Hello !</div>
