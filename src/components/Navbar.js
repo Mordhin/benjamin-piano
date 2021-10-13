@@ -34,7 +34,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className={`navbar w-full h-10 px-3 flex justify-between items-center fixed transition-colors duration-300 ${handleBg()} text-white`}>
+    <div className={`navbar w-full h-10 px-3 flex justify-between items-center fixed transition-colors duration-300 ${handleBg()} text-white z-20`}>
       {width >= 640 && (
         <>
           <div className="w-max font-bold cursor-pointer" onClick={() => animateScroll.scrollToTop()}>Benjamin Corion<span className="text-primary-400">.</span></div>
