@@ -1,0 +1,34 @@
+{
+  "banner": {
+    "part1": "Hello !",
+    "part2": "Je suis",
+    "part3": "Pianiste et Professeur"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "music": "Musique"
+  },
+  "booking": "Je réserve un cours",
+  "title": {
+    "who": "Qui suis-je ?",
+    "what": "Ce que je propose",
+    "pricing": "Mes tarifs"
+  },
+  "link": {
+    "videos": "Mes vidéos",
+    "prices": "Mes tarifs"
+  },
+  "pricing": {
+    "title": {
+      "one": "Cours d'une heure",
+      "half": "Cours d'une demie-heure"
+    },
+    "unity": "À l'unité",
+    "package": {
+      "title": "En forfait",
+      "one": "Forfait de 10 cours d'une heure : 200€.",
+      "half": "Forfait de 10 cours d'une demie-heure : 130€."
+    }
+  }
+}

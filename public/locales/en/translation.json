@@ -1,0 +1,34 @@
+{
+  "banner": {
+    "part1": "Hello!",
+    "part2": "I'm",
+    "part3": "Pianist and Teacher"
+  },
+  "navbar": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "music": "Music"
+  },
+  "booking": "Book a lesson",
+  "title": {
+    "who": "Who am I?",
+    "what": "What I offer",
+    "pricing": "My prices"
+  },
+  "link": {
+    "videos": "My videos",
+    "prices": "My prices"
+  },
+  "pricing": {
+    "title": {
+      "one": "One hour lesson",
+      "half": "half-an-hour lesson"
+    },
+    "unity": "Per unit",
+    "package": {
+      "title": "In package",
+      "one": "Ten one hour lesson package: 200€.",
+      "half": "Ten half-an-hour lesson package: 130€."
+    }
+  }
+}
