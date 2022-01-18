@@ -24,11 +24,8 @@
       "one": "Cours d'une heure",
       "half": "Cours d'une demie-heure"
     },
-    "unity": "À l'unité",
-    "package": {
-      "title": "En forfait",
-      "one": "Forfait de 10 cours d'une heure : 200€.",
-      "half": "Forfait de 10 cours d'une demie-heure : 130€."
-    }
+    "home": "À mon domicile",
+    "away": "À votre domicile",
+    "moncada": "Je vis à Moncada, Valencia"
   }
 }
