@@ -24,11 +24,8 @@
       "one": "One hour lesson",
       "half": "half-an-hour lesson"
     },
-    "unity": "Per unit",
-    "package": {
-      "title": "In package",
-      "one": "Ten one hour lesson package: 200€.",
-      "half": "Ten half-an-hour lesson package: 130€."
-    }
+    "home": "At my place",
+    "away": "At your place",
+    "moncada": "I live in Moncada, Valencia"
   }
 }

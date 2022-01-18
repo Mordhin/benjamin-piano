@@ -9,6 +9,7 @@ import { CgChevronRightR } from "react-icons/cg";
 import { scrollSpy } from "react-scroll";
 import { PricingCard } from "./components/PricingCard.js";
 import { useTranslation } from "react-i18next";
+import { Navlink } from "./components/Navlink.js";
 
 const App = () => {
   useEffect(() => {
@@ -34,9 +35,9 @@ const App = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </Paragraphe>
-        <div className="w-full cursor-pointer flex justify-end items-center text-primary-400 hover:text-primary-100">
+        {/*<div className="w-full cursor-pointer flex justify-end items-center text-primary-400 hover:text-primary-100">
           {t("link.videos")} <CgChevronRightR className="ml-2" />
-        </div>
+        </div>*/}
         <Paragraphe
           title={t("title.what")}
           image={piano}
@@ -51,9 +52,12 @@ const App = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </Paragraphe>
-        <div className="w-full cursor-pointer flex justify-end items-center text-primary-400 hover:text-primary-100">
+        <Navlink
+          to="pricing"
+          className="w-full cursor-pointer flex justify-end items-center text-primary-400 hover:text-primary-100"
+        >
           {t("link.prices")} <CgChevronRightR className="ml-2" />
-        </div>
+        </Navlink>
       </div>
       <div
         id="pricing"
@@ -64,18 +68,19 @@ const App = () => {
         </h2>
         <PricingCard
           title={t("pricing.title.one")}
-          price1="25€"
-          price2="20€"
+          price1="22€"
+          price2="25€"
+          price3="30€"
           className="mb-20"
         />
         <PricingCard
           title={t("pricing.title.half")}
           price1="15€"
-          price2="13€"
+          price2="18€"
+          price3="23€"
           className="mb-10"
         />
-        <div className="w-full">{t("pricing.package.one")}</div>
-        <div className="w-full">{t("pricing.package.half")}</div>
+        <div className="w-full">*{t("pricing.moncada")}</div>
         <Button className="mt-10 mb-20" size="60" primary>
           {t("booking")}
         </Button>
