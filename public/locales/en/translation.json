@@ -7,13 +7,14 @@
   "navbar": {
     "home": "Home",
     "pricing": "Pricing",
-    "music": "Music"
+    "contact": "Contact"
   },
   "booking": "Book a lesson",
   "title": {
     "who": "Who am I?",
     "what": "What I offer",
-    "pricing": "My prices"
+    "pricing": "My prices",
+    "contact": "Contact Me"
   },
   "link": {
     "videos": "My videos",
