@@ -27,13 +27,14 @@ const App = () => {
         className="container mx-auto mt-20 mb-20 flex flex-col items-center"
       >
         <Paragraphe title={t("title.who")} image={benji} className="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          {t("who.part1")}
+          <br />
+          {t("who.part2")}
+          <br />
+          {t("who.part3")}
+          <br />
+          <br />
+          {t("who.part4")}
         </Paragraphe>
         {/*<div className="w-full cursor-pointer flex justify-end items-center text-primary-400 hover:text-primary-100">
           {t("link.videos")} <CgChevronRightR className="ml-2" />
@@ -44,13 +45,18 @@ const App = () => {
           right
           className="mt-20 mb-5"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          {t("what.part1")}
+          <br />
+          {t("what.part2")}
+          <br />
+          {t("what.part3")}
+          <br />
+          {t("what.part4")}
+          <br />
+          {t("what.part5")}
+          <br />
+          <br />
+          {t("what.part6")}
         </Paragraphe>
         <Navlink
           to="pricing"
@@ -84,6 +90,15 @@ const App = () => {
         <Button className="mt-10 mb-20" size="60" primary>
           {t("booking")}
         </Button>
+      </div>
+      <div
+        id="contact"
+        className="container mx-auto mt-20 mb-20 flex flex-col items-center"
+      >
+        <h2 className={`text-2xl font-bold mt-4 mb-4 w-full`}>
+          {t("title.contact")}
+        </h2>
+        Me contacter WEEEEEESSSSHHH
       </div>
       <div className="mb-40"></div>
     </>

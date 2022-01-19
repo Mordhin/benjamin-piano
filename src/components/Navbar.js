@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { Link, animateScroll } from "react-scroll";
+import { animateScroll } from "react-scroll";
 import france from "../assets/france.png";
 import uk from "../assets/united-kingdom.png";
 import spain from "../assets/spain.png";
 import { Navlink } from "./Navlink";
 import { useWindowDimensions } from "../hooks/useWindowDimensions";
-import { FaBars } from "react-icons/fa";
 import { Hamburger } from "./Hamburger";
 import { useTranslation } from "react-i18next";
 
@@ -58,8 +57,8 @@ export const Navbar = () => {
             <Navlink to="pricing" className="mx-3 w-20 text-center">
               {t("navbar.pricing")}
             </Navlink>
-            <Navlink to="pricing" className="mx-3 w-20 text-center">
-              {t("navbar.music")}
+            <Navlink to="contact" className="mx-3 w-20 text-center">
+              {t("navbar.contact")}
             </Navlink>
           </div>
           <ul className="w-28 flex justify-end">
@@ -68,13 +67,19 @@ export const Navbar = () => {
                 src={france}
                 alt="france"
                 onClick={() => changeLanguage("fr")}
+                className="cursor-pointer"
               />
             </li>
             <li className="mr-3 w-5">
-              <img src={uk} alt="uk" onClick={() => changeLanguage("en")} />
+              <img
+                src={uk}
+                alt="uk"
+                onClick={() => changeLanguage("en")}
+                className="cursor-pointer"
+              />
             </li>
             <li className="w-5">
-              <img src={spain} alt="spain" />
+              <img src={spain} alt="spain" className="cursor-pointer" />
             </li>
           </ul>
         </>
@@ -102,23 +107,23 @@ export const Navbar = () => {
               <Navlink to="pricing" className="mb-2 text-right">
                 {t("navbar.pricing")}
               </Navlink>
-              <Navlink to="pricing" className="mb-2 text-right">
-                {t("navbar.music")}
+              <Navlink to="contact" className="mb-2 text-right">
+                {t("navbar.contact")}
               </Navlink>
               <div className="flex justify-around">
                 <img
                   src={france}
                   alt="france"
-                  className="mr-3 w-5"
+                  className="mr-3 w-5 cursor-pointer"
                   onClick={() => changeLanguage("fr")}
                 />
                 <img
                   src={uk}
                   alt="uk"
-                  className="mr-3 w-5"
+                  className="mr-3 w-5 cursor-pointer"
                   onClick={() => changeLanguage("en")}
                 />
-                <img src={spain} alt="spain" className="w-5" />
+                <img src={spain} alt="spain" className="w-5 cursor-pointer" />
               </div>
             </div>
           </div>

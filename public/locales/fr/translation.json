@@ -7,13 +7,14 @@
   "navbar": {
     "home": "Accueil",
     "pricing": "Tarifs",
-    "music": "Musique"
+    "contact": "Contact"
   },
   "booking": "Je réserve un cours",
   "title": {
     "who": "Qui suis-je ?",
     "what": "Ce que je propose",
-    "pricing": "Mes tarifs"
+    "pricing": "Mes tarifs",
+    "contact": "Me contacter"
   },
   "link": {
     "videos": "Mes vidéos",
@@ -27,5 +28,19 @@
     "home": "À mon domicile",
     "away": "À votre domicile",
     "moncada": "Je vis à Moncada, Valencia"
+  },
+  "who": {
+    "part1": "Bonjour ! Benjamin, 25ans, pianiste et clavieriste professionnel.",
+    "part2": "J'ai appris le solfège et le piano avec des professeurs particulier dès mes 7ans, pianotant entre musique classique et musique moderne.",
+    "part3": "Je me suis professionnalisé à partir de 2019, en étant admis à l'école de musique 'EF2M' à Tourcoing. Pendant les 2 années de cursus pro, j'y ai développé ma musicalité, ma théorie musicale, et ma pratique des pianos/claviers en étudiant la musique actuelle (pop, rock, blues, jazz...), entouré de professeurs expérimentés et renommés.",
+    "part4": "Aujourd'hui, je souhaites à mon tour partager mes connaissances et expériences, en vous proposant des cours particuliers."
+  },
+  "what": {
+    "part1": "Je vous propose un programme personnalisé, ludique, en fonction de vos envies et de votre niveau.",
+    "part2": "Du fait qu'il soit personnel, ce programme est adapté aux enfants et aux adultes.",
+    "part3": "Differents styles peuvent être abordés (pop, rock, blues, classique, musique de film, initiation au jazz..), pour vous permettre de jouer des morceaux qui vous plaisent.",
+    "part4": "Nous pourrons travailler plusieurs méthodes pour apprendre le piano : relever à l'oreille un morceau, ou de manière traditionnelle avec une partition. Ensemble, nous découvrirons la technique et la base du solfège, pour vous permettre d'être autonome sur un piano.",
+    "part5": "Si vous souhaitez aller plus loin dans la compréhension de la musique, nous développerons le solfège, l'harmonie, l'ear training... L'objectif est d'apprendre tout en s'amusant et en prenant du plaisir sur le piano.",
+    "part6": "Je propose deux types de cours : 30 minutes ou 1 heure. N'hésitez pas à me contacter pour qu'on définisse ce qui vous correspond le mieux."
   }
 }

@@ -4,7 +4,7 @@ import { BsChevronCompactDown } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 
 export const Banner = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="px-8 md:px-16 h-screen w-full bg-banner bg-black bg-blend-multiply bg-opacity-60 bg-center bg-cover text-white flex flex-col justify-between">
