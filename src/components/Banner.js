@@ -7,7 +7,7 @@ export const Banner = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="h-screen w-full bg-banner bg-black bg-blend-multiply bg-opacity-60 bg-center bg-cover px-10 text-white flex flex-col justify-between">
+    <div className="px-8 md:px-16 h-screen w-full bg-banner bg-black bg-blend-multiply bg-opacity-60 bg-center bg-cover text-white flex flex-col justify-between">
       <div></div>
       <div className="text-3xl sm:text-6xl leading-normal sm:leading-normal font-bold flex flex-col justify-center">
         <div>{t("banner.part1")}</div>
