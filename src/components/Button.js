@@ -1,8 +1,9 @@
 import React from "react";
 
-export const Button = ({ primary, className, children }) => {
+export const Button = ({ primary, className, type = null, children }) => {
   return (
     <button
+      type={`${type}`}
       className={`${className} w-60 text-base ${
         primary
           ? "bg-primary-400 hover:bg-primary-100 border-primary-900"
