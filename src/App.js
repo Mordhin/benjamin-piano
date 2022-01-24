@@ -6,10 +6,12 @@ import benji from "./assets/benji avatar.jpg";
 import piano from "./assets/benji clavier.jpg";
 import { Button } from "./components/Button.js";
 import { CgChevronRightR } from "react-icons/cg";
+import { FiMail } from "react-icons/fi";
 import { scrollSpy } from "react-scroll";
 import { PricingCard } from "./components/PricingCard.js";
 import { useTranslation } from "react-i18next";
 import { Navlink } from "./components/Navlink.js";
+import { Contact } from "./components/Contact.js";
 
 const App = () => {
   useEffect(() => {
@@ -87,18 +89,23 @@ const App = () => {
           className="mb-10"
         />
         <div className="w-full">*{t("pricing.moncada")}</div>
-        <Button className="mt-10 mb-20" size="60" primary>
-          {t("booking")}
-        </Button>
       </div>
       <div
         id="contact"
         className="container mx-auto mt-20 mb-20 flex flex-col items-center"
       >
-        <h2 className={`text-2xl font-bold mt-4 mb-4 w-full`}>
+        <h2 className={`text-2xl font-bold mt-4 mb-10 w-full`}>
           {t("title.contact")}
         </h2>
-        Me contacter WEEEEEESSSSHHH
+        <div className="w-full flex flex-col items-center">
+          <h3 className="font-bold mb-4 flex items-center">
+            <div className="mr-2">
+              <FiMail />
+            </div>
+            <div>Envoyez-moi un mail</div>
+          </h3>
+          <Contact></Contact>
+        </div>
       </div>
       <div className="mb-40"></div>
     </>

@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./Button.js";
 import { BsChevronCompactDown } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
+import { Navlink } from "./Navlink.js";
 
 export const Banner = () => {
   const { t } = useTranslation();
@@ -19,9 +20,12 @@ export const Banner = () => {
           {t("banner.part3")}
           <span className="text-primary-400">.</span>
         </div>
-        <Button size="60" primary>
+        <Navlink
+          to="contact"
+          className=" w-60 text-base text-center bg-primary-400 hover:bg-primary-100 border-primary-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-0 rounded"
+        >
           {t("booking")}
-        </Button>
+        </Navlink>
       </div>
       <div className="w-full flex justify-center mb-2 text-2xl">
         <BsChevronCompactDown />
