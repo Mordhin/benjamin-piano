@@ -128,7 +128,12 @@ export const Navbar = () => {
                   className="mr-3 w-5 cursor-pointer"
                   onClick={() => changeLanguage("en")}
                 />
-                <img src={spain} alt="spain" className="w-5 cursor-pointer" />
+                <img
+                  src={spain}
+                  alt="spain"
+                  onClick={() => changeLanguage("es")}
+                  className="w-5 cursor-pointer"
+                />
               </div>
             </div>
           </div>
