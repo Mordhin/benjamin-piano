@@ -114,6 +114,12 @@ const App = () => {
         </div>
       </div>
       <div className="mb-60"></div>
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=7939554&style=0007&nbdigits=5&type=ip&initCount=0"
+        title="Free Counter"
+        Alt="web counter"
+        border="0"
+      />
     </>
   );
 };
