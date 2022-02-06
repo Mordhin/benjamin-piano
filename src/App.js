@@ -95,19 +95,25 @@ const App = () => {
         className="container mx-auto mt-20 mb-20 flex flex-col items-center"
       >
         <h2 className={`text-2xl font-bold mt-4 mb-10 w-full`}>
-          {t("title.contact")}
+          {t("contact.title")}
         </h2>
         <div className="w-full flex flex-col items-center">
           <h3 className="font-bold mb-4 flex items-center">
             <div className="mr-2">
               <FiMail />
             </div>
-            <div>Envoyez-moi un mail</div>
+            <div>{t("contact.body")}</div>
           </h3>
           <Contact></Contact>
+          <div className="text-italic text-gray-400 mt-8">
+            {t("contact.discret")}
+            <div className="text-center text-xl text-gray-500">
+              benjamin.corion.note@gmail.com
+            </div>
+          </div>
         </div>
       </div>
-      <div className="mb-40"></div>
+      <div className="mb-60"></div>
     </>
   );
 };

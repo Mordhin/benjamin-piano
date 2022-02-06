@@ -13,8 +13,7 @@
   "title": {
     "who": "Qui suis-je ?",
     "what": "Ce que je propose",
-    "pricing": "Mes tarifs",
-    "contact": "Me contacter"
+    "pricing": "Mes tarifs"
   },
   "link": {
     "videos": "Mes vidéos",
@@ -29,6 +28,24 @@
     "away": "À votre domicile",
     "moncada": "Je vis à Moncada, Valencia"
   },
+  "contact": {
+    "title": "Me contacter",
+    "body": "Laissez moi un message, je vous recontacte !",
+    "discret": "Vous pouvez aussi m'envoyer un mail directement à cette adresse : "
+  },
+  "form": {
+    "name": "Nom",
+    "mail": "E-mail",
+    "phone": "Téléphone",
+    "subject": "Sujet",
+    "subject-placeholder": "Cours de piano",
+    "message": "Message",
+    "button": {
+      "default": "Envoyer",
+      "loading": "Chargement...",
+      "sent": "C'est envoyé !"
+    }
+  },
   "who": {
     "part1": "Bonjour ! Benjamin, 25ans, pianiste et clavieriste professionnel.",
     "part2": "J'ai appris le solfège et le piano avec des professeurs particulier dès mes 7ans, pianotant entre musique classique et musique moderne.",
@@ -41,6 +58,6 @@
     "part3": "Differents styles peuvent être abordés (pop, rock, blues, classique, musique de film, initiation au jazz..), pour vous permettre de jouer des morceaux qui vous plaisent.",
     "part4": "Nous pourrons travailler plusieurs méthodes pour apprendre le piano : relever à l'oreille un morceau, ou de manière traditionnelle avec une partition. Ensemble, nous découvrirons la technique et la base du solfège, pour vous permettre d'être autonome sur un piano.",
     "part5": "Si vous souhaitez aller plus loin dans la compréhension de la musique, nous développerons le solfège, l'harmonie, l'ear training... L'objectif est d'apprendre tout en s'amusant et en prenant du plaisir sur le piano.",
-    "part6": "Je propose deux types de cours : 30 minutes ou 1 heure. N'hésitez pas à me contacter pour qu'on définisse ce qui vous correspond le mieux."
+    "part6": "Je propose deux types de cours : 30 minutes ou 1 heure. Cours en français ou en anglais. N'hésitez pas à me contacter pour qu'on définisse ce qui vous correspond le mieux."
   }
 }
