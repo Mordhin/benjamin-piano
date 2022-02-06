@@ -28,5 +28,37 @@
     "home": "At my place",
     "away": "At your place",
     "moncada": "I live in Moncada, Valencia"
+  },
+  "contact": {
+    "title": "Contact me",
+    "body": "Leave me a message, I will call you back",
+    "discret": "You can also send me a mail at this address : "
+  },
+  "form": {
+    "name": "Name",
+    "mail": "Mail",
+    "phone": "Phone number",
+    "subject": "Subject",
+    "subject-placeholder": "Piano lessons",
+    "message": "Message",
+    "button": {
+      "default": "Send",
+      "loading": "Loading...",
+      "sent": "It's sent!"
+    }
+  },
+  "who": {
+    "part1": "Hello ! Benjamin, 25 years old, professional pianist and keyboardist.",
+    "part2": "I learned music theory and piano with private teachers from the age of 7, playing classical and modern music.",
+    "part3": "I became a professional pianist in 2019, by being admitted to the music school 'EF2M' in Tourcoing. During the 2 years of professional studies, I developed my musicality, my musical theory, and my piano/keyboard practice by studying contemporary music (pop, rock, blues, jazz...), surrounded by experienced and renowned teachers.",
+    "part4": "Today, I would like to share my knowledge and experience by offering private lessons."
+  },
+  "what": {
+    "part1": "I offer you a personalised, fun programme, according to your wishes and your level.",
+    "part2": "Because it is personal, this programme is adapted to children and adults.",
+    "part3": "Different styles can be covered (pop, rock, blues, classical, film music, introduction to jazz...), to allow you to play pieces that you like.",
+    "part4": "We can work on several methods to learn the piano: picking up a piece by ear, or the traditional way with a score. Together, we will discover the technique and the basis of music theory, to allow you to be autonomous on a piano.",
+    "part5": "If you wish to go further in the understanding of music, we will develop music theory, harmony, ear training... The objective is to learn while having fun and enjoying the piano.",
+    "part6": "I offer two types of lessons: 30 minutes or 1 hour. Courses in french or english. Do not hesitate to contact me so that we can define what suits you best."
   }
 }
