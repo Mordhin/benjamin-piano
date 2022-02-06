@@ -79,7 +79,12 @@ export const Navbar = () => {
               />
             </li>
             <li className="w-5">
-              <img src={spain} alt="spain" className="cursor-pointer" />
+              <img
+                src={spain}
+                alt="spain"
+                onClick={() => changeLanguage("es")}
+                className="cursor-pointer"
+              />
             </li>
           </ul>
         </>

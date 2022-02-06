@@ -1,0 +1,63 @@
+{
+  "banner": {
+    "part1": "Hola !",
+    "part2": "Yo Soy",
+    "part3": "Pianista y profesor"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "pricing": "Tarifas",
+    "contact": "Contacto"
+  },
+  "booking": "Reservo un curso",
+  "title": {
+    "who": "¿Quién soy?",
+    "what": "Qué propongo",
+    "pricing": "Mis tarifas"
+  },
+  "link": {
+    "videos": "Mis vídeos",
+    "prices": "Mis tarifas"
+  },
+  "pricing": {
+    "title": {
+      "one": "Una hora de curso",
+      "half": "1/2 hora de curso"
+    },
+    "home": "En mi casa",
+    "away": "En su casa",
+    "moncada": "Vivo en Moncada, Valencia"
+  },
+  "contact": {
+    "title": "Contacta conmigo",
+    "body": "Déjeme un mensaje, me pondré en contacto con usted !",
+    "discret": "También puede enviarme un correo electrónico directamente a esta dirección: "
+  },
+  "form": {
+    "name": "Nombre",
+    "mail": "E-mail",
+    "phone": "Teléfono",
+    "subject": "Tema",
+    "subject-placeholder": "Cursos de piano",
+    "message": "Mensaje",
+    "button": {
+      "default": "Enviar",
+      "loading": "Cargando...",
+      "sent": "¡Se ha enviado!"
+    }
+  },
+  "who": {
+    "part1": "¡Hola ! Benjamin, 25 años, pianista y teclista profesional.",
+    "part2": "Aprendí teoría musical y piano con profesores particulares desde los 7 años, tocando música clásica y moderna.",
+    "part3": "Me profesionalicé a partir de 2019, al ser admitido en la escuela de música 'EF2M' de Tourcoing. Durante los 2 años de estudios profesionales, desarrollé mi musicalidad, mi teoría musical y mi práctica del piano/teclado estudiando música actual (pop, rock, blues, jazz...), rodeado de profesores experimentados y reconocidos.",
+    "part4": "Hoy me gustaría compartir mis conocimientos y experiencia ofreciéndote clases particulares"
+  },
+  "what": {
+    "part1": "Te ofrezco un programa personalizado y divertido, según tus deseos y tu nivel.",
+    "part2": "Al ser personal, este programa es adecuado tanto para niños como para adultos.",
+    "part3": "Se pueden abarcar diferentes estilos (pop, rock, blues, clásica, música de cine, introducción al jazz...), para que puedas tocar las piezas que te gustan.",
+    "part4": "Podemos trabajar con varios métodos para aprender a tocar el piano: de oído, o de forma tradicional con una partitura. Juntos, descubriremos la técnica y las bases de la teoría musical, para permitirle ser autónomo en un piano.",
+    "part5": "Si quieres ir más allá en la comprensión de la música, desarrollaremos la teoría musical, la armonía, el entrenamiento del oído... El objetivo es aprender divirtiéndose y disfrutando del piano.",
+    "part6": "Ofrezco dos tipos de cursos: de 30 minutos o de 1 hora. Clases en francés o inglés. No dude en ponerse en contacto conmigo para que podamos definir lo que más le conviene."
+  }
+}
