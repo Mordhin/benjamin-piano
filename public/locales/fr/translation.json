@@ -24,9 +24,9 @@
       "one": "Cours d'une heure",
       "half": "Cours d'1/2 heure"
     },
-    "home": "À mon domicile",
-    "away": "À votre domicile",
-    "moncada": "Je vis à Moncada, Valencia"
+    "home": "À Bouvignies",
+    "away": "À votre domicile (dans un rayon de)",
+    "moncada": "Je ne fais pas de cours à mon domicile."
   },
   "contact": {
     "title": "Me contacter",
