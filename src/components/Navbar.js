@@ -62,6 +62,7 @@ export const Navbar = () => {
             </Navlink>
           </div>
           <ul className="w-28 flex justify-end">
+            {/*
             <li className="mr-3 w-5">
               <img
                 src={france}
@@ -86,6 +87,7 @@ export const Navbar = () => {
                 className="cursor-pointer"
               />
             </li>
+            */}
           </ul>
         </>
       )}
@@ -115,6 +117,7 @@ export const Navbar = () => {
               <Navlink to="contact" className="mb-2 text-right">
                 {t("navbar.contact")}
               </Navlink>
+              {/*
               <div className="flex justify-around">
                 <img
                   src={france}
@@ -135,6 +138,7 @@ export const Navbar = () => {
                   className="w-5 cursor-pointer"
                 />
               </div>
+              */}
             </div>
           </div>
         </>
