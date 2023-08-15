@@ -12,6 +12,7 @@ import { PricingCard } from "./components/PricingCard.js";
 import { useTranslation } from "react-i18next";
 import { Navlink } from "./components/Navlink.js";
 import { Contact } from "./components/Contact.js";
+import { Maintenance } from "./pages/Maintenance.js";
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,11 @@ const App = () => {
   }, []);
 
   const { t } = useTranslation();
+  console.log(process.env.REACT_APP_MAINTENANCE);
+
+  if (process.env.REACT_APP_MAINTENANCE == 'true') return (
+    <Maintenance />
+  )
 
   return (
     <>
